@@ -49,7 +49,7 @@ https://discord.com/developers/applications
 a. Click `New Application`<br/>
 b. Give it a name<br/>
 c. Navigate to bot page</br>
-d. Click `Add Bot`</br>
+d. Click `Add Bot`
 
 ##### 2. Fill out `.env-template` and rename to `.env`
 
@@ -65,7 +65,7 @@ b. Paste this role name under ON_DUTY_ROLE_NAME<br/><br/>
 TOKEN=<br/>
 a. On the Discord application you created, navigate to the bot tab<br/>
 b. Click `Copy` under token<br/>
-c. Paste this token under TOKEN<br/><br/>
+c. Paste this token under TOKEN
 
 ##### 3. Fill out `complexes-template.json` and rename to `complexes.json`
 
@@ -77,7 +77,7 @@ The example complexes should be removed.
 a. In the format presented, create .csv files for each complex's on call schedule.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;If more or less than two people are on call for a time period, add or remove lines in between dates<br/>
 b. Run the following command for each complex:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;`python3 import_schedule.py [complex].csv [complex abbreviation]`<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;`python3 import_schedule.py [complex].csv [complex abbreviation]`
 
 ##### 5. Start the bot
 
