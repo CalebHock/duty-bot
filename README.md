@@ -18,6 +18,9 @@ Duty Bot is an interactive Discord bot for use of residential life departments t
 #### Transfer
 `!transfer @owner @recipient MM/DD/YYYY` The transfer command will change in the schedule database who a duty shift belongs to.
 
+### On Call Role
+When a user who has ran !id and !staff commmands is on call, the bot will automatically assign the user the specififed on call roll. The bot will also remove the role when the user is no longer on call.
+
 ## Installation
 
 ##### 1. Clone this project to the computer hosting the bot
