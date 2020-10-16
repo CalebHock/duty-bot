@@ -56,11 +56,11 @@ d. Click `Add Bot`
 GUILD_ID=<br/>
 a. In your Discord settings under appearance, enable developer mode<br/>
 b. Right click on your discord server you are adding the bot to<br/>
-c. Copy the ID and paste it in the `.env` under GUILD_ID<br/><br/>
+c. Copy the ID and paste it in the `.env` under GUILD_ID<br/>
 
 ON_DUTY_ROLE_NAME=<br/>
 a. In your Discord server, create a role that will be given to users when on call<br/>
-b. Paste this role name under ON_DUTY_ROLE_NAME<br/><br/>
+b. Paste this role name under ON_DUTY_ROLE_NAME<br/>
 
 TOKEN=<br/>
 a. On the Discord application you created, navigate to the bot tab<br/>
