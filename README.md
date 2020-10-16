@@ -53,7 +53,28 @@ d. Click `Add Bot`</br>
 
 ##### 2. Fill out `.env-template` and rename to `.env`
 
-GUILD_ID<br/>
-a. In your discord settings under appearance, enable developer mode<br/>
+GUILD_ID=<br/>
+a. In your Discord settings under appearance, enable developer mode<br/>
 b. Right click on your discord server you are adding the bot to<br/>
-c. Copy the ID and paste it in the `.env` under GUILD_ID<br/>
+c. Copy the ID and paste it in the `.env` under GUILD_ID<br/><br/>
+
+ON_DUTY_ROLE_NAME=<br/>
+a. In your Discord server, create a role that will be given to users when on call<br/>
+b. Paste this role name under ON_DUTY_ROLE_NAME<br/><br/>
+
+TOKEN=<br/>
+a. On the Discord application you created, navigate to the bot tab<br/>
+b. Click `Copy` under token<br/>
+c. Paste this token under TOKEN<br/><br/>
+
+##### 3. Fill out `complexes-template.json` and rename to `complexes.json`
+
+In the format presented, fill out each complex on your campus with each complex's full name and abbreviation.<br/>
+The example complexes should be removed.
+
+#### 4. Import on call schedules
+
+a. In the format presented, create .csv files for each complex's on call schedule.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;If more or less than two people are on call for a time period, add or remove lines in between dates<br/>
+b. Run the following command for each complex:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;`python3 import_schedule.py [complex].csv [complex abbreviation]`<br/><br/>
