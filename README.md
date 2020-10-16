@@ -72,9 +72,14 @@ c. Paste this token under TOKEN<br/><br/>
 In the format presented, fill out each complex on your campus with each complex's full name and abbreviation.<br/>
 The example complexes should be removed.
 
-#### 4. Import on call schedules
+##### 4. Import on call schedules
 
 a. In the format presented, create .csv files for each complex's on call schedule.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;If more or less than two people are on call for a time period, add or remove lines in between dates<br/>
 b. Run the following command for each complex:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;`python3 import_schedule.py [complex].csv [complex abbreviation]`<br/><br/>
+
+##### 5. Start the bot
+
+To start the bot, run the following command:<br/>
+`python3 bot.py`
