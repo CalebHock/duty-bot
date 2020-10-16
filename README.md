@@ -77,7 +77,7 @@ The example complexes should be removed.
 a. In the format presented, create .csv files for each complex's on call schedule.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;If more or less than two people are on call for a time period, add or remove lines in between dates<br/>
 b. Run the following command for each complex:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;`python3 import_schedule.py [complex].csv [complex abbreviation]`
+&nbsp;&nbsp;&nbsp;&nbsp;`python3 import_schedule.py schedules/[complex].csv [complex abbreviation]`
 
 ##### 5. Start the bot
 
