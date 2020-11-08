@@ -1,6 +1,6 @@
 # Duty Bot
 
-Duty Bot is an interactive Discord bot for use of residential life departments to manage their RA staff within the on call scheduling.
+Duty Bot is an interactive Discord bot for use of residential life departments to manage their RA staff. This Discord application allows server owners to coordinate on call scheduling of their RA staff.
 
 ## Features
 
